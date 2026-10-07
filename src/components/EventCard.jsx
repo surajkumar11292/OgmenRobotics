@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-export default function EventCard({ cluster, defaultExpanded = false }) {
-  const [isExpanded, setIsExpanded] = useState(defaultExpanded);
+export default function EventCard({ cluster }) {
+  const [isExpanded, setIsExpanded] = useState(false);
 
   const getCategoryIcon = (type) => {
     switch (type) {

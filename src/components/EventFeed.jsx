@@ -41,11 +41,10 @@ export default function EventFeed({ clusters, filterOptions }) {
 
       <div className="event-feed-list">
         {filteredClusters.length > 0 ? (
-          filteredClusters.map((cluster, index) => (
+          filteredClusters.map((cluster) => (
             <EventCard
               key={cluster.id}
               cluster={cluster}
-              defaultExpanded={index === 0}
             />
           ))
         ) : (
