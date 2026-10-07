@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+dist-ssr/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Assignment files
+assignment.md
+*assignment*
+assignment/
+
+# AI Tooling & Workspace Artifacts
+.agent/
+.claude/
+.gemini/
+.impeccable/
+.system_generated/
+.tempmediaStorage/
+.user_uploaded/
+.artifacts/
+*.antigravity*
+scratch/
