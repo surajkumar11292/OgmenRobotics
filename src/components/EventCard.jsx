@@ -79,15 +79,16 @@ export default function EventCard({ cluster }) {
 
         <div className="event-card-header-content">
           <div className="event-card-time-row">
-            <span className="event-category">{cluster.category}</span>
-            <span className="event-time mono-num">{cluster.timeRange}</span>
+            <div className="event-card-meta">
+              <span className="event-category">{cluster.category}</span>
+              <span className="event-time mono-num">{cluster.timeRange}</span>
+            </div>
+            <span className={getBadgeClass(cluster.priority)}>
+              {cluster.resolvedBadge}
+            </span>
           </div>
           <h3 className="event-card-title">{cluster.title}</h3>
         </div>
-
-        <span className={getBadgeClass(cluster.priority)}>
-          {cluster.resolvedBadge}
-        </span>
       </div>
 
       <p className="event-card-summary">

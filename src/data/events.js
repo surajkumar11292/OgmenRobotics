@@ -18,14 +18,14 @@ export const device = {
 
 export const statusSummary = {
   tone: 'amber',
-  headline: '1 small note to see',
-  title: 'Your pet is safe and having a calm morning',
-  detail: 'ORo had a quick 24-minute Wi-Fi break at 10:18 AM, but reconnected all by itself. Your pet enjoyed morning treats and play, took a cozy sunlit nap, and all videos are safe.',
-  awayDuration: 'Away for about 4 hours',
+  headline: 'All safe · 1 routine note',
+  title: 'Your pet is safe and resting',
+  detail: 'Wi-Fi reconnected automatically. All offline clips are saved and your pet is resting peacefully.',
+  awayDuration: 'Away for 4 hrs',
   lastUpdated: '10:45 AM',
   quickStats: [
     { label: 'Pet moments', value: '22 recorded' },
-    { label: 'Needs your help', value: '0 (All good)' },
+    { label: 'Action needed', value: '0 (None)' },
     { label: 'Robot health', value: 'Online · 64%' }
   ]
 };
@@ -38,30 +38,30 @@ export const activityClusters = [
     category: 'Pet Activity',
     time: '10:42 AM – 10:45 AM',
     timeRange: '10:42 AM – 10:45 AM',
-    duration: '3 minutes',
-    title: 'Trotted to the sunny living room window',
-    summary: 'Your pet walked over to look out the front bay window, wagged gently at passing birds, and settled back on the rug beside ORo.',
+    duration: '3 mins',
+    title: 'Sunny window watch',
+    summary: 'Watched birds by the window and settled comfortably on the rug.',
     resolved: true,
-    resolvedBadge: 'Happy & calm',
+    resolvedBadge: 'Calm & resting',
     actionNeeded: false,
     events: [
       {
         id: 'hw-1',
         time: '10:45 AM',
-        title: 'Settled comfortably on the living room rug',
-        description: 'Laying down peacefully within view of ORo.'
+        title: 'Resting on rug',
+        description: 'Peaceful and relaxed by ORo.'
       },
       {
         id: 'hw-2',
         time: '10:43 AM',
-        title: 'Gentle tail wag watching birds outside',
-        description: 'Curious and relaxed window watching.'
+        title: 'Watching birds',
+        description: 'Gentle tail wag at the window.'
       },
       {
         id: 'hw-3',
         time: '10:42 AM',
-        title: 'Trotted past the living room doorway',
-        description: 'Casual morning stretch and stroll.'
+        title: 'Morning stretch',
+        description: 'Walked to living room window.'
       }
     ]
   },
@@ -72,24 +72,24 @@ export const activityClusters = [
     category: 'Wi-Fi Check',
     time: '10:18 AM – 10:42 AM',
     timeRange: '10:18 AM – 10:42 AM',
-    duration: '24 minutes',
-    title: 'Wi-Fi paused briefly for 24 minutes',
-    summary: 'ORo briefly lost its connection to home Wi-Fi while following your pet, but reconnected all on its own. It kept watching your pet offline, and no photos or clips were lost.',
+    duration: '24 mins',
+    title: 'Wi-Fi paused for 24 mins',
+    summary: 'Brief pause while moving. Reconnected automatically; all clips saved.',
     resolved: true,
-    resolvedBadge: 'Fixed on its own',
+    resolvedBadge: 'Reconnected',
     actionNeeded: false,
     events: [
       {
         id: 'w-1',
         time: '10:42 AM',
-        title: 'Reconnected to Wi-Fi automatically',
-        description: 'Signal is strong again. All offline pet videos were saved.'
+        title: 'Wi-Fi reconnected',
+        description: 'Signal strong; all offline clips saved.'
       },
       {
         id: 'w-2',
         time: '10:18 AM',
-        title: 'Brief Wi-Fi pause while moving',
-        description: 'Switched to offline recording so pet monitoring never stopped.'
+        title: 'Brief Wi-Fi pause',
+        description: 'Switched to offline recording mode.'
       }
     ]
   },
@@ -100,30 +100,30 @@ export const activityClusters = [
     category: 'Sound Check',
     time: '10:02 AM – 10:05 AM',
     timeRange: '10:02 AM – 10:05 AM',
-    duration: '3 minutes',
-    title: 'Heard postal delivery at the front door',
-    summary: 'Mail dropped into the front door slot. Your pet trotted to investigate with 1 curious soft bark. ORo played a gentle calming chime, and your pet relaxed on the rug in under a minute.',
+    duration: '3 mins',
+    title: 'Mail delivery at front door',
+    summary: 'Heard mail drop; ORo played calming chime and pet settled right down.',
     resolved: true,
-    resolvedBadge: 'Quickly settled',
+    resolvedBadge: 'Settled quickly',
     actionNeeded: false,
     events: [
       {
         id: 'ds-1',
         time: '10:05 AM',
-        title: 'Returned to rug and laid down comfortably',
-        description: 'Tail relaxed, breathing slow and steady.'
+        title: 'Resting on rug',
+        description: 'Calm breathing and relaxed posture.'
       },
       {
         id: 'ds-2',
         time: '10:03 AM',
-        title: 'Investigated hallway & sniffed door draft',
-        description: 'Checked the entryway curiously for 30 seconds.'
+        title: 'Checked hallway',
+        description: 'Curious sniff for 30 seconds.'
       },
       {
         id: 'ds-3',
         time: '10:02 AM',
-        title: 'Heard mail drop · ORo played soothing chime',
-        description: 'One soft alert "boof", immediately calmed by ORo.'
+        title: 'Mail dropped in slot',
+        description: 'ORo played soothing chime.'
       }
     ]
   },
@@ -134,36 +134,36 @@ export const activityClusters = [
     category: 'Pet Activity',
     time: '9:31 AM – 9:55 AM',
     timeRange: '9:31 AM – 9:55 AM',
-    duration: '24 minutes',
-    title: 'Stretched, drank water, and explored the room',
-    summary: 'ORo saw 4 moments of healthy movement. Your pet took a long drink from the kitchen water bowl, did a full downward stretch by the couch, and gave ORo a friendly nose boop.',
+    duration: '24 mins',
+    title: 'Morning play & water break',
+    summary: 'Drank water in kitchen, did morning stretches, and greeted ORo.',
     resolved: true,
-    resolvedBadge: 'Happy & normal',
+    resolvedBadge: 'Healthy & active',
     actionNeeded: false,
     events: [
       {
         id: 'p-1',
         time: '9:55 AM',
-        title: 'Curiously tapped ORo’s front camera with nose',
-        description: 'Friendly nose boop and playful tail wag.'
+        title: 'Nose boop to ORo',
+        description: 'Friendly camera tap & wag.'
       },
       {
         id: 'p-2',
         time: '9:47 AM',
-        title: 'Walked to kitchen & took a 25-second water break',
-        description: 'Hydrated nicely from the water bowl.'
+        title: 'Water break',
+        description: 'Hydrated in the kitchen.'
       },
       {
         id: 'p-3',
         time: '9:38 AM',
-        title: 'Stretched near the couch & coffee table',
-        description: 'Big morning yoga stretch.'
+        title: 'Couch stretch',
+        description: 'Full downward stretch.'
       },
       {
         id: 'p-4',
         time: '9:31 AM',
-        title: 'Woke up from morning nap & shook out coat',
-        description: 'First stretch after a peaceful rest.'
+        title: 'Woke from rest',
+        description: 'Gentle coat shake and stroll.'
       }
     ]
   },
@@ -175,17 +175,17 @@ export const activityClusters = [
     time: '9:35 AM',
     timeRange: '9:35 AM',
     duration: 'Quick update',
-    title: 'ORo updated itself quietly on its charger',
-    summary: 'ORo installed a small routine software improvement while resting on its charging base. Everything is running smoothly.',
+    title: 'Routine software update',
+    summary: 'Small update installed quietly on dock. All systems ready.',
     resolved: true,
-    resolvedBadge: 'All set',
+    resolvedBadge: 'Up to date',
     actionNeeded: false,
     events: [
       {
         id: 's-1',
         time: '9:35 AM',
-        title: 'System update completed',
-        description: 'All pet tracking and safety features are ready.'
+        title: 'Update complete',
+        description: 'Pet safety features active.'
       }
     ]
   },
@@ -196,9 +196,9 @@ export const activityClusters = [
     category: 'Nap & Rest',
     time: '8:45 AM – 9:25 AM',
     timeRange: '8:45 AM – 9:25 AM',
-    duration: '40 minutes',
-    title: 'Cozy 40-minute nap in the sunbeam',
-    summary: 'Your pet curled up on the orthopedic bed by the side window. ORo monitored relaxed resting breathing (steady 18 breaths per minute) with zero restless turning.',
+    duration: '40 mins',
+    title: 'Sunbeam nap (40 mins)',
+    summary: 'Deep sleep on window bed with steady resting breathing (18 bpm).',
     resolved: true,
     resolvedBadge: 'Peaceful sleep',
     actionNeeded: false,
@@ -206,20 +206,20 @@ export const activityClusters = [
       {
         id: 'sn-1',
         time: '9:25 AM',
-        title: 'Began stirring as the sunlight shifted',
-        description: 'Slow gentle awakening in warm light.'
+        title: 'Stirred gently',
+        description: 'Slow stretch as sun moved.'
       },
       {
         id: 'sn-2',
         time: '9:02 AM',
-        title: 'Deep resting breathing steady at 18 breaths/min',
-        description: 'Vitals monitor confirms calm, deep sleep.'
+        title: 'Deep sleep (18 bpm)',
+        description: 'Calm, steady vitals.'
       },
       {
         id: 'sn-3',
         time: '8:45 AM',
-        title: 'Curled up into dog bed after morning play',
-        description: 'Found favorite sunny spot on the rug.'
+        title: 'Curled up in bed',
+        description: 'Settled into sunny spot.'
       }
     ]
   },
@@ -230,30 +230,30 @@ export const activityClusters = [
     category: 'Play & Treats',
     time: '8:15 AM – 8:28 AM',
     timeRange: '8:15 AM – 8:28 AM',
-    duration: '13 minutes',
-    title: 'Dispensed 1 crunchy treat & rolled the ball',
-    summary: 'ORo tossed 1 dental crunch treat and engaged your pet with a playful 5-minute rolling ball game. Your pet eagerly retrieved the ball and wagged happily.',
+    duration: '13 mins',
+    title: 'Morning treat & ball roll',
+    summary: 'Tossed dental treat and played a quick 5-minute rolling ball game.',
     resolved: true,
-    resolvedBadge: 'Playful & active',
+    resolvedBadge: 'Playful',
     actionNeeded: false,
     events: [
       {
         id: 'td-1',
         time: '8:28 AM',
-        title: 'Pet happily finished crunching treat by the rug',
-        description: 'Cleaned up crumbs and rested contentedly.'
+        title: 'Finished treat',
+        description: 'Rested happily on rug.'
       },
       {
         id: 'td-2',
         time: '8:22 AM',
-        title: 'ORo rolled interactive ball · pet chased & tapped it',
-        description: '5 minutes of healthy indoor physical activity.'
+        title: 'Chased ball',
+        description: '5 mins indoor activity.'
       },
       {
         id: 'td-3',
         time: '8:15 AM',
-        title: 'Dispensed 1 scheduled morning dental bite',
-        description: 'Happy chime sounded, treat safely tossed.'
+        title: 'Tossed dental treat',
+        description: 'Morning bite dispensed.'
       }
     ]
   },
@@ -264,37 +264,37 @@ export const activityClusters = [
     category: 'Morning Hello',
     time: '7:45 AM – 8:05 AM',
     timeRange: '7:45 AM – 8:05 AM',
-    duration: '20 minutes',
-    title: 'First morning greeting when you left for work',
-    summary: 'ORo undocked from its home charging dock at 7:45 AM. Your pet greeted the robot with 30 seconds of happy tail wags before settling into the living room.',
+    duration: '20 mins',
+    title: 'Morning departure greeting',
+    summary: 'ORo started daytime watch. Cheerful tail-wag greeting when you left.',
     resolved: true,
-    resolvedBadge: 'Great start',
+    resolvedBadge: 'Happy greeting',
     actionNeeded: false,
     events: [
       {
         id: 'mg-1',
         time: '8:02 AM',
-        title: 'Pet sniffed ORo’s bumper happily',
-        description: 'Familiar, gentle morning interaction.'
+        title: 'Sniffed ORo bumper',
+        description: 'Friendly morning check.'
       },
       {
         id: 'mg-2',
         time: '7:52 AM',
-        title: '30-second tail wag greeting detected',
-        description: 'Positive mood & high tail posture.'
+        title: 'Tail wag greeting',
+        description: 'Positive, happy mood.'
       },
       {
         id: 'mg-3',
         time: '7:45 AM',
-        title: 'ORo undocked to begin daytime companion schedule',
-        description: 'Quiet departure from base station.'
+        title: 'ORo undocked',
+        description: 'Started daytime watch.'
       }
     ]
   }
 ];
 
 export const filterOptions = [
-  { id: 'all', label: 'All pet moments', count: 8 },
-  { id: 'attention', label: 'Needs a look', count: 1 },
-  { id: 'routine', label: 'Pet routine', count: 7 }
+  { id: 'all', label: 'All', count: 8 },
+  { id: 'attention', label: 'Needs look', count: 1 },
+  { id: 'routine', label: 'Routine', count: 7 }
 ];

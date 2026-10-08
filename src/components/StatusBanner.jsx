@@ -29,7 +29,7 @@ export default function StatusBanner({ summary, onOpenDrawer }) {
 
         <div className="metric-tile">
           <span className="metric-label">Action needed</span>
-          <span className="metric-value metric-value-good">0 (All good)</span>
+          <span className="metric-value metric-value-good">0 (None)</span>
         </div>
 
         <button
